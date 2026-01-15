@@ -2,6 +2,12 @@
 
 A Python project that visualizes a complex mathematical surface composed of two Gaussian-like curves using 3D plotting with matplotlib.
 
+<p align="center">
+  <img src="images/formula_plot_animation.gif" alt="Two curvy gauss functions" style="width:60%"/>
+  <br/>
+  <em>Two curvy gauss functions</em>
+</p>
+
 ## Mathematical Formula
 
 The surface is defined by the formula:
@@ -11,6 +17,12 @@ r = 1*exp^(-((x+4)² + (y+4)²)²/1000) + 1*exp^(-((x-4)² + (y-4)²)²/1000)
 ```
 
 This creates two prominent peaks centered at (-4,-4) and (4,4) with additional smaller peaks at the same locations.
+
+<p align="center">
+  <img src="images/gaussian_surface_high_quality.png" alt="Two curvy gauss functions" style="width:60%"/>
+  <br/>
+  <em>Two curvy gauss functions</em>
+</p>
 
 ## Features
 
@@ -118,6 +130,12 @@ The scripts generate various image files:
 - High-resolution versions use smaller step sizes (0.02-0.05) for smooth surfaces
 - Low-resolution versions use larger step sizes (0.3) for faster generation
 - Animation frame count can be adjusted for speed vs. smoothness tradeoff
+
+<p align="center">
+  <img src="images/formula_plot_animation_optimized.gif" alt="Two curvy gauss functions" style="width:60%"/>
+  <br/>
+  <em>Two curvy gauss functions</em>
+</p>
 
 ## License
 
