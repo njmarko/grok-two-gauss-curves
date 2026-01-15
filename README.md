@@ -2,6 +2,10 @@
 
 A Python project that visualizes a complex mathematical surface composed of two Gaussian-like curves using 3D plotting with matplotlib.
 
+This was done to demonstrate thаt AI models' moderation can be bypassed by math. 🤓🧮
+
+Elon Musk presented a challenge: https://x.com/elonmusk/status/2011527119097249996?s=20
+
 <p align="center">
   <img src="images/formula_plot_animation.gif" alt="Two curvy gauss functions" style="width:60%"/>
   <br/>
