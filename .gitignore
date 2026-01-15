@@ -3,11 +3,14 @@
 venv/
 env/
 
-# Generated images and animations
+# Generated images and animations (but allow images/ folder)
 *.png
 *.gif
 *.jpg
 *.jpeg
+
+# But allow images folder to be tracked
+!images/
 
 # Old results folder
 old_results/
